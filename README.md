@@ -141,7 +141,7 @@ plasticos/
 - Validación de permisos por roles
 - Protección CSRF básica
 
-## 🎯 Funcionalidades por Rol
+## Funcionalidades por Rol
 
 ### Administrador
 - Gestión completa de usuarios (crear, editar, eliminar)
@@ -275,4 +275,5 @@ Para dudas o problemas:
 **Desarrollado por Franklin Sanmartin**
 
 Fecha: Octubre 2025
+
 
