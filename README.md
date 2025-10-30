@@ -2,24 +2,24 @@
 
 Sistema web completo desarrollado en PHP puro con MySQL para la gestión de compras de plástico reciclado. Incluye control de usuarios, proveedores y registro de compras con diferentes niveles de acceso según roles.
 
-##  Características
+## 📋 Características
 
-- **Autenticación segura** con password_hash() y password_verify()
-- **Control de acceso por roles**: Admin, Empleado, Proveedor
-- **CRUD completo** para Usuarios, Proveedores y Compras
-- **Interfaz moderna** con Bootstrap 5
-- **PDO** para consultas seguras y prevención de SQL Injection
-- **Validación de datos** con filter_input
-- **Código documentado** y organizado con arquitectura MVC
+- ✅ **Autenticación segura** con password_hash() y password_verify()
+- ✅ **Control de acceso por roles**: Admin, Empleado, Proveedor
+- ✅ **CRUD completo** para Usuarios, Proveedores y Compras
+- ✅ **Interfaz moderna** con Bootstrap 5
+- ✅ **PDO** para consultas seguras y prevención de SQL Injection
+- ✅ **Validación de datos** con filter_input
+- ✅ **Código documentado** y organizado con arquitectura MVC
 
-## Requisitos del Sistema
+## 🚀 Requisitos del Sistema
 
 - PHP 8.0 o superior
 - MySQL 5.7 o superior
 - Servidor web Apache/Nginx
 - Laragon, XAMPP o WAMP (recomendado para desarrollo)
 
-##  Instalación
+## 📦 Instalación
 
 ### 1. Clonar o copiar el proyecto
 
@@ -63,7 +63,7 @@ Abra su navegador y vaya a:
 http://localhost/plasticos
 ```
 
-##  Usuarios de Prueba
+## 👤 Usuarios de Prueba
 
 El sistema incluye 3 usuarios predefinidos con diferentes roles:
 
@@ -82,7 +82,7 @@ El sistema incluye 3 usuarios predefinidos con diferentes roles:
 - **Contraseña**: 12345
 - **Permisos**: Ver sus datos y compras realizadas a su empresa
 
-## Estructura del Proyecto
+## 📂 Estructura del Proyecto
 
 ```
 plasticos/
@@ -132,35 +132,35 @@ plasticos/
 └── README.md                     # Este archivo
 ```
 
-##  Seguridad Implementada
+## 🔐 Seguridad Implementada
 
-- Contraseñas encriptadas con `password_hash()`
-- Validación de sesiones en cada página
-- Prepared Statements PDO (prevención SQL Injection)
-- Sanitización de inputs con `filter_var()`
-- Validación de permisos por roles
-- Protección CSRF básica
+- ✅ Contraseñas encriptadas con `password_hash()`
+- ✅ Validación de sesiones en cada página
+- ✅ Prepared Statements PDO (prevención SQL Injection)
+- ✅ Sanitización de inputs con `filter_var()`
+- ✅ Validación de permisos por roles
+- ✅ Protección CSRF básica
 
-##  Funcionalidades por Rol
+## 🎯 Funcionalidades por Rol
 
 ### Administrador
-- Gestión completa de usuarios (crear, editar, eliminar)
-- Gestión completa de proveedores
-- Gestión completa de compras
-- Ver estadísticas del sistema
-- Acceso a todos los módulos
+- ✅ Gestión completa de usuarios (crear, editar, eliminar)
+- ✅ Gestión completa de proveedores
+- ✅ Gestión completa de compras
+- ✅ Ver estadísticas del sistema
+- ✅ Acceso a todos los módulos
 
 ### Empleado
-- Registrar nuevas compras
-- Ver lista de compras
-- Ver lista de proveedores
-- No puede editar/eliminar
-- No puede gestionar usuarios
+- ✅ Registrar nuevas compras
+- ✅ Ver lista de compras
+- ✅ Ver lista de proveedores
+- ❌ No puede editar/eliminar
+- ❌ No puede gestionar usuarios
 
 ### Proveedor
-- Ver información de su empresa
-- Ver compras realizadas a su empresa
-- Solo lectura (sin permisos de edición)
+- ✅ Ver información de su empresa
+- ✅ Ver compras realizadas a su empresa
+- ❌ Solo lectura (sin permisos de edición)
 
 ## 💡 Características Técnicas
 
@@ -181,7 +181,7 @@ plasticos/
 - Diseño responsive (mobile-friendly)
 - Interfaz intuitiva y moderna
 
-## Personalización
+## 🛠️ Personalización
 
 ### Cambiar colores del tema
 Edite `assets/css/estilos.css`:
@@ -202,7 +202,7 @@ Los tipos más comunes ya están sugeridos:
 - PP (Polipropileno)
 - PS (Poliestireno)
 
-## Base de Datos
+## 📊 Base de Datos
 
 ### Tablas principales
 
@@ -231,7 +231,7 @@ Los tipos más comunes ya están sugeridos:
 - costo_unitario
 - total (CALCULATED)
 
-##  Solución de Problemas
+## 🐛 Solución de Problemas
 
 ### Error de conexión a BD
 Verifique en `config/conexion.php`:
@@ -249,21 +249,21 @@ Verifique las rutas en los archivos:
 - Las rutas deben ser relativas correctamente
 - Bootstrap CDN debe estar accesible
 
-## Recursos Educativos
+## 📚 Recursos Educativos
 
 Este proyecto está diseñado para estudiantes de Ingeniería en Sistemas e incluye:
 
-- Código ampliamente comentado
-- Buenas prácticas de programación
-- Implementación de seguridad básica
-- Arquitectura escalable y mantenible
-- Ejemplos de validación y sanitización
+- 📝 Código ampliamente comentado
+- 🎓 Buenas prácticas de programación
+- 🔒 Implementación de seguridad básica
+- 📐 Arquitectura escalable y mantenible
+- 💻 Ejemplos de validación y sanitización
 
-## Licencia
+## 📝 Licencia
 
 Este proyecto es de uso educativo y puede ser modificado libremente.
 
-## Soporte
+## 👨‍💻 Soporte
 
 Para dudas o problemas:
 1. Revise la documentación en el código
@@ -272,6 +272,6 @@ Para dudas o problemas:
 
 ---
 
-**Desarrollado por Sebastian Sanmartin**
+**Desarrollado con 💚 para Ingeniería en Sistemas**
 
 Fecha: Octubre 2025
